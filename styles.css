@@ -51,7 +51,7 @@ body {
     width: 400px;
 }
 
-.header-sign {
+.header-button {
     text-align: center;
     background-color: #3882F6;
     color: #F9FAF8;
@@ -71,6 +71,7 @@ body {
     background-color: gray;
     font-size: 18px;
     color: #F9FAF8;
+    border: 4px solid gray;
 }
 
 .header-main-text {
@@ -110,10 +111,29 @@ body {
 }
 
 .box {
-    border: 4px solid #3882F6;
-    border-radius: 16px;
     width: 150px;
     height: 150px;
+    padding-bottom: 20px;
+}
+
+.squirrel-img {
+    border: 4px solid gray;
+    border-radius: 16px;
+}
+
+.dog-img {
+    border: 4px solid gray;
+    border-radius: 16px;
+}
+
+.bird-img {
+    border: 4px solid gray;
+    border-radius: 16px;
+}
+
+.cat-img {
+    border: 4px solid gray;
+    border-radius: 16px;
 }
 
 /*The following selectors targeted are for the quote.*/
@@ -143,4 +163,48 @@ body {
     width: 750px;
     text-align: end;
     font-size: 24px;
+}
+
+/*The following selectors are for the call to action.*/
+.sign-up-container {
+    display: flex;
+    justify-content: center;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.sign-up {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 1000px;
+    height: 100px;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border-radius: 8px;
+}
+
+.sign-up-title {
+    font-size: 18px;
+    font-weight: bolder;
+}
+
+.sign-up-button {
+    border: 2px solid #F9FAF8;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border-radius: 6px;
+    text-align: center;
+    width: 80px;
+    height: 25px;
+}
+
+/*Last selector is for the bottom of the webpage*/
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    color: #F9FAF8;
+    height: 70px;
 }
